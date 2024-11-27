@@ -21,6 +21,7 @@ local MenuSettings = Instance.new("TextButton")
 local WeaponMods = Instance.new("TextButton")
 local SoundMods = Instance.new("TextButton")
 local HostOnlyMods = Instance.new("TextButton")
+local AdminMode = Instance.new("TextButton")
 
 --Properties:
 
@@ -234,16 +235,29 @@ HostOnlyMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
 HostOnlyMods.BackgroundTransparency = 1.000
 HostOnlyMods.BorderColor3 = Color3.fromRGB(0, 255, 255)
 HostOnlyMods.BorderSizePixel = 0
-HostOnlyMods.Position = UDim2.new(-0.00114793039, 0, 5.87949371, 0)
+HostOnlyMods.Position = UDim2.new(-0.00114793039, 0, 6.25685215, 0)
 HostOnlyMods.Size = UDim2.new(0, 293, 0, 20)
 HostOnlyMods.Font = Enum.Font.SourceSans
 HostOnlyMods.Text = "Host Only Mods                                                                "
 HostOnlyMods.TextColor3 = Color3.fromRGB(255, 255, 255)
 HostOnlyMods.TextSize = 18.000
 
+AdminMode.Name = "AdminMode"
+AdminMode.Parent = TextLabel_2
+AdminMode.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+AdminMode.BackgroundTransparency = 1.000
+AdminMode.BorderColor3 = Color3.fromRGB(0, 255, 255)
+AdminMode.BorderSizePixel = 0
+AdminMode.Position = UDim2.new(-0.00114793039, 0, 5.87949371, 0)
+AdminMode.Size = UDim2.new(0, 293, 0, 20)
+AdminMode.Font = Enum.Font.SourceSans
+AdminMode.Text = "Admin Mods                                                                      "
+AdminMode.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminMode.TextSize = 18.000
+
 -- Scripts:
 
-local function BTZYVVO_fake_script() -- Frame.LocalScript 
+local function WKGVJK_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game :GetService("UserInputService")
@@ -262,8 +276,8 @@ local function BTZYVVO_fake_script() -- Frame.LocalScript
 	
 	UserInputService.InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(BTZYVVO_fake_script)()
-local function GQTGW_fake_script() -- MainMods.LocalScript 
+coroutine.wrap(WKGVJK_fake_script)()
+local function QXRGMKT_fake_script() -- MainMods.LocalScript 
 	local script = Instance.new('LocalScript', MainMods)
 
 	local button = script.Parent
@@ -281,8 +295,8 @@ local function GQTGW_fake_script() -- MainMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(GQTGW_fake_script)()
-local function UOUUCXS_fake_script() -- MainMods.LocalScript 
+coroutine.wrap(QXRGMKT_fake_script)()
+local function LAKL_fake_script() -- MainMods.LocalScript 
 	local script = Instance.new('LocalScript', MainMods)
 
 	local button = script.Parent
@@ -299,8 +313,8 @@ local function UOUUCXS_fake_script() -- MainMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(UOUUCXS_fake_script)()
-local function CPGPAG_fake_script() -- WorldMods.LocalScript 
+coroutine.wrap(LAKL_fake_script)()
+local function CHSH_fake_script() -- WorldMods.LocalScript 
 	local script = Instance.new('LocalScript', WorldMods)
 
 	local button = script.Parent
@@ -318,8 +332,8 @@ local function CPGPAG_fake_script() -- WorldMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(CPGPAG_fake_script)()
-local function ZJKATTD_fake_script() -- WorldMods.LocalScript 
+coroutine.wrap(CHSH_fake_script)()
+local function HXOUIAL_fake_script() -- WorldMods.LocalScript 
 	local script = Instance.new('LocalScript', WorldMods)
 
 	local button = script.Parent
@@ -336,8 +350,8 @@ local function ZJKATTD_fake_script() -- WorldMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZJKATTD_fake_script)()
-local function RCIIQH_fake_script() -- GameVisuals.LocalScript 
+coroutine.wrap(HXOUIAL_fake_script)()
+local function IBWZU_fake_script() -- GameVisuals.LocalScript 
 	local script = Instance.new('LocalScript', GameVisuals)
 
 	local button = script.Parent
@@ -355,8 +369,8 @@ local function RCIIQH_fake_script() -- GameVisuals.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(RCIIQH_fake_script)()
-local function XXMYWFF_fake_script() -- GameVisuals.LocalScript 
+coroutine.wrap(IBWZU_fake_script)()
+local function ERYT_fake_script() -- GameVisuals.LocalScript 
 	local script = Instance.new('LocalScript', GameVisuals)
 
 	local button = script.Parent
@@ -373,8 +387,8 @@ local function XXMYWFF_fake_script() -- GameVisuals.LocalScript
 	end)
 	
 end
-coroutine.wrap(XXMYWFF_fake_script)()
-local function YPFVND_fake_script() -- Visuals.LocalScript 
+coroutine.wrap(ERYT_fake_script)()
+local function HFWS_fake_script() -- Visuals.LocalScript 
 	local script = Instance.new('LocalScript', Visuals)
 
 	local button = script.Parent
@@ -392,8 +406,8 @@ local function YPFVND_fake_script() -- Visuals.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(YPFVND_fake_script)()
-local function PKIRU_fake_script() -- Visuals.LocalScript 
+coroutine.wrap(HFWS_fake_script)()
+local function TJFAVBW_fake_script() -- Visuals.LocalScript 
 	local script = Instance.new('LocalScript', Visuals)
 
 	local button = script.Parent
@@ -410,8 +424,8 @@ local function PKIRU_fake_script() -- Visuals.LocalScript
 	end)
 	
 end
-coroutine.wrap(PKIRU_fake_script)()
-local function GGFXRJY_fake_script() -- Main.LocalScript 
+coroutine.wrap(TJFAVBW_fake_script)()
+local function WVDRQT_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local button = script.Parent
@@ -442,8 +456,8 @@ local function GGFXRJY_fake_script() -- Main.LocalScript
 	
 	button.MouseButton1Click:Connect(toggleFeature)
 end
-coroutine.wrap(GGFXRJY_fake_script)()
-local function ZYYDQ_fake_script() -- Main.LocalScript 
+coroutine.wrap(WVDRQT_fake_script)()
+local function RXGN_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local button = script.Parent
@@ -460,8 +474,8 @@ local function ZYYDQ_fake_script() -- Main.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZYYDQ_fake_script)()
-local function ENYE_fake_script() -- CombatMods.LocalScript 
+coroutine.wrap(RXGN_fake_script)()
+local function ONSCND_fake_script() -- CombatMods.LocalScript 
 	local script = Instance.new('LocalScript', CombatMods)
 
 	local button = script.Parent
@@ -479,8 +493,8 @@ local function ENYE_fake_script() -- CombatMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(ENYE_fake_script)()
-local function DJGMZG_fake_script() -- CombatMods.LocalScript 
+coroutine.wrap(ONSCND_fake_script)()
+local function EFUM_fake_script() -- CombatMods.LocalScript 
 	local script = Instance.new('LocalScript', CombatMods)
 
 	local button = script.Parent
@@ -497,8 +511,8 @@ local function DJGMZG_fake_script() -- CombatMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(DJGMZG_fake_script)()
-local function JDODYMC_fake_script() -- PlayerMods.LocalScript 
+coroutine.wrap(EFUM_fake_script)()
+local function SADQC_fake_script() -- PlayerMods.LocalScript 
 	local script = Instance.new('LocalScript', PlayerMods)
 
 	local button = script.Parent
@@ -516,8 +530,8 @@ local function JDODYMC_fake_script() -- PlayerMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(JDODYMC_fake_script)()
-local function GCQNVDY_fake_script() -- PlayerMods.LocalScript 
+coroutine.wrap(SADQC_fake_script)()
+local function OIHKNT_fake_script() -- PlayerMods.LocalScript 
 	local script = Instance.new('LocalScript', PlayerMods)
 
 	local button = script.Parent
@@ -534,8 +548,8 @@ local function GCQNVDY_fake_script() -- PlayerMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(GCQNVDY_fake_script)()
-local function FCXPJCI_fake_script() -- DetectionMods.LocalScript 
+coroutine.wrap(OIHKNT_fake_script)()
+local function USKRUN_fake_script() -- DetectionMods.LocalScript 
 	local script = Instance.new('LocalScript', DetectionMods)
 
 	local button = script.Parent
@@ -553,8 +567,8 @@ local function FCXPJCI_fake_script() -- DetectionMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(FCXPJCI_fake_script)()
-local function JOPP_fake_script() -- DetectionMods.LocalScript 
+coroutine.wrap(USKRUN_fake_script)()
+local function UMSVOR_fake_script() -- DetectionMods.LocalScript 
 	local script = Instance.new('LocalScript', DetectionMods)
 
 	local button = script.Parent
@@ -571,8 +585,8 @@ local function JOPP_fake_script() -- DetectionMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(JOPP_fake_script)()
-local function QXSC_fake_script() -- VehicleMods.LocalScript 
+coroutine.wrap(UMSVOR_fake_script)()
+local function WKKOGKX_fake_script() -- VehicleMods.LocalScript 
 	local script = Instance.new('LocalScript', VehicleMods)
 
 	local button = script.Parent
@@ -590,8 +604,8 @@ local function QXSC_fake_script() -- VehicleMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(QXSC_fake_script)()
-local function WKOAU_fake_script() -- VehicleMods.LocalScript 
+coroutine.wrap(WKKOGKX_fake_script)()
+local function USIEKLK_fake_script() -- VehicleMods.LocalScript 
 	local script = Instance.new('LocalScript', VehicleMods)
 
 	local button = script.Parent
@@ -608,8 +622,8 @@ local function WKOAU_fake_script() -- VehicleMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(WKOAU_fake_script)()
-local function AWPGEV_fake_script() -- FunMods.LocalScript 
+coroutine.wrap(USIEKLK_fake_script)()
+local function SIRTB_fake_script() -- FunMods.LocalScript 
 	local script = Instance.new('LocalScript', FunMods)
 
 	local button = script.Parent
@@ -627,8 +641,8 @@ local function AWPGEV_fake_script() -- FunMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(AWPGEV_fake_script)()
-local function HTBQJP_fake_script() -- FunMods.LocalScript 
+coroutine.wrap(SIRTB_fake_script)()
+local function FUSXYV_fake_script() -- FunMods.LocalScript 
 	local script = Instance.new('LocalScript', FunMods)
 
 	local button = script.Parent
@@ -645,8 +659,8 @@ local function HTBQJP_fake_script() -- FunMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(HTBQJP_fake_script)()
-local function LNFEB_fake_script() -- MenuSettings.LocalScript 
+coroutine.wrap(FUSXYV_fake_script)()
+local function OQKLSSH_fake_script() -- MenuSettings.LocalScript 
 	local script = Instance.new('LocalScript', MenuSettings)
 
 	local button = script.Parent
@@ -664,8 +678,8 @@ local function LNFEB_fake_script() -- MenuSettings.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(LNFEB_fake_script)()
-local function QBTDTT_fake_script() -- MenuSettings.LocalScript 
+coroutine.wrap(OQKLSSH_fake_script)()
+local function IYIU_fake_script() -- MenuSettings.LocalScript 
 	local script = Instance.new('LocalScript', MenuSettings)
 
 	local button = script.Parent
@@ -682,8 +696,8 @@ local function QBTDTT_fake_script() -- MenuSettings.LocalScript
 	end)
 	
 end
-coroutine.wrap(QBTDTT_fake_script)()
-local function GAJER_fake_script() -- WeaponMods.LocalScript 
+coroutine.wrap(IYIU_fake_script)()
+local function CUZRIZ_fake_script() -- WeaponMods.LocalScript 
 	local script = Instance.new('LocalScript', WeaponMods)
 
 	local button = script.Parent
@@ -701,8 +715,8 @@ local function GAJER_fake_script() -- WeaponMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(GAJER_fake_script)()
-local function QFJFG_fake_script() -- WeaponMods.LocalScript 
+coroutine.wrap(CUZRIZ_fake_script)()
+local function SEDSZJW_fake_script() -- WeaponMods.LocalScript 
 	local script = Instance.new('LocalScript', WeaponMods)
 
 	local button = script.Parent
@@ -719,8 +733,8 @@ local function QFJFG_fake_script() -- WeaponMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(QFJFG_fake_script)()
-local function NVXGRS_fake_script() -- SoundMods.LocalScript 
+coroutine.wrap(SEDSZJW_fake_script)()
+local function NJKNL_fake_script() -- SoundMods.LocalScript 
 	local script = Instance.new('LocalScript', SoundMods)
 
 	local button = script.Parent
@@ -738,8 +752,8 @@ local function NVXGRS_fake_script() -- SoundMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(NVXGRS_fake_script)()
-local function MKMN_fake_script() -- SoundMods.LocalScript 
+coroutine.wrap(NJKNL_fake_script)()
+local function RXRGMG_fake_script() -- SoundMods.LocalScript 
 	local script = Instance.new('LocalScript', SoundMods)
 
 	local button = script.Parent
@@ -756,8 +770,8 @@ local function MKMN_fake_script() -- SoundMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(MKMN_fake_script)()
-local function RDWVFT_fake_script() -- HostOnlyMods.LocalScript 
+coroutine.wrap(RXRGMG_fake_script)()
+local function NMAD_fake_script() -- HostOnlyMods.LocalScript 
 	local script = Instance.new('LocalScript', HostOnlyMods)
 
 	local button = script.Parent
@@ -775,8 +789,8 @@ local function RDWVFT_fake_script() -- HostOnlyMods.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(RDWVFT_fake_script)()
-local function KAQFU_fake_script() -- HostOnlyMods.LocalScript 
+coroutine.wrap(NMAD_fake_script)()
+local function PDLYK_fake_script() -- HostOnlyMods.LocalScript 
 	local script = Instance.new('LocalScript', HostOnlyMods)
 
 	local button = script.Parent
@@ -793,4 +807,41 @@ local function KAQFU_fake_script() -- HostOnlyMods.LocalScript
 	end)
 	
 end
-coroutine.wrap(KAQFU_fake_script)()
+coroutine.wrap(PDLYK_fake_script)()
+local function DFWUB_fake_script() -- AdminMode.LocalScript 
+	local script = Instance.new('LocalScript', AdminMode)
+
+	local button = script.Parent
+	local featureEnabled = false
+	
+	local function toggleFeature()
+		featureEnabled = not featureEnabled
+		if featureEnabled then
+			print("Feature on")  
+		else
+			print("Feature off") 
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleFeature)
+	
+end
+coroutine.wrap(DFWUB_fake_script)()
+local function OYXNVQL_fake_script() -- AdminMode.LocalScript 
+	local script = Instance.new('LocalScript', AdminMode)
+
+	local button = script.Parent
+	
+	local defaultTransparency = 1 
+	local hoverTransparency = 0.5
+	
+	button.MouseEnter:Connect(function()
+		button.BackgroundTransparency = hoverTransparency
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button.BackgroundTransparency = defaultTransparency
+	end)
+	
+end
+coroutine.wrap(OYXNVQL_fake_script)()
