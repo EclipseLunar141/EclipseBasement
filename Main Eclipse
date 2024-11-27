@@ -17,6 +17,7 @@ local feature1_7 = Instance.new("TextButton")
 local feature1_8 = Instance.new("TextButton")
 local feature1_9 = Instance.new("TextButton")
 local feature1_10 = Instance.new("TextButton")
+local feature1_11 = Instance.new("TextButton")
 
 --Properties:
 
@@ -185,9 +186,22 @@ feature1_10.Text = "Fun Mods                                                    
 feature1_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 feature1_10.TextSize = 18.000
 
+feature1_11.Name = "feature 1"
+feature1_11.Parent = TextLabel_2
+feature1_11.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+feature1_11.BackgroundTransparency = 1.000
+feature1_11.BorderColor3 = Color3.fromRGB(0, 255, 255)
+feature1_11.BorderSizePixel = 0
+feature1_11.Position = UDim2.new(-0.00114793039, 0, 4.74741793, 0)
+feature1_11.Size = UDim2.new(0, 293, 0, 20)
+feature1_11.Font = Enum.Font.SourceSans
+feature1_11.Text = "Menu Settings                                                                   "
+feature1_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+feature1_11.TextSize = 18.000
+
 -- Scripts:
 
-local function UKBXOPX_fake_script() -- Frame.LocalScript 
+local function FVSZEPY_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game :GetService("UserInputService")
@@ -206,8 +220,8 @@ local function UKBXOPX_fake_script() -- Frame.LocalScript
 	
 	UserInputService.InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(UKBXOPX_fake_script)()
-local function OZCAO_fake_script() -- feature1.LocalScript 
+coroutine.wrap(FVSZEPY_fake_script)()
+local function VVAXM_fake_script() -- feature1.LocalScript 
 	local script = Instance.new('LocalScript', feature1)
 
 	local button = script.Parent
@@ -225,8 +239,8 @@ local function OZCAO_fake_script() -- feature1.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(OZCAO_fake_script)()
-local function SDVKGU_fake_script() -- feature1.LocalScript 
+coroutine.wrap(VVAXM_fake_script)()
+local function ZJZW_fake_script() -- feature1.LocalScript 
 	local script = Instance.new('LocalScript', feature1)
 
 	local button = script.Parent
@@ -243,8 +257,8 @@ local function SDVKGU_fake_script() -- feature1.LocalScript
 	end)
 	
 end
-coroutine.wrap(SDVKGU_fake_script)()
-local function LTFXGF_fake_script() -- feature1_2.LocalScript 
+coroutine.wrap(ZJZW_fake_script)()
+local function RFMX_fake_script() -- feature1_2.LocalScript 
 	local script = Instance.new('LocalScript', feature1_2)
 
 	local button = script.Parent
@@ -262,8 +276,8 @@ local function LTFXGF_fake_script() -- feature1_2.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(LTFXGF_fake_script)()
-local function PDXEIK_fake_script() -- feature1_2.LocalScript 
+coroutine.wrap(RFMX_fake_script)()
+local function VEKWY_fake_script() -- feature1_2.LocalScript 
 	local script = Instance.new('LocalScript', feature1_2)
 
 	local button = script.Parent
@@ -280,8 +294,8 @@ local function PDXEIK_fake_script() -- feature1_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(PDXEIK_fake_script)()
-local function RTKH_fake_script() -- feature1_3.LocalScript 
+coroutine.wrap(VEKWY_fake_script)()
+local function NLNG_fake_script() -- feature1_3.LocalScript 
 	local script = Instance.new('LocalScript', feature1_3)
 
 	local button = script.Parent
@@ -299,8 +313,8 @@ local function RTKH_fake_script() -- feature1_3.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(RTKH_fake_script)()
-local function YXRWMN_fake_script() -- feature1_3.LocalScript 
+coroutine.wrap(NLNG_fake_script)()
+local function MVIVH_fake_script() -- feature1_3.LocalScript 
 	local script = Instance.new('LocalScript', feature1_3)
 
 	local button = script.Parent
@@ -317,8 +331,8 @@ local function YXRWMN_fake_script() -- feature1_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(YXRWMN_fake_script)()
-local function SLKUD_fake_script() -- feature1_4.LocalScript 
+coroutine.wrap(MVIVH_fake_script)()
+local function YZLWGO_fake_script() -- feature1_4.LocalScript 
 	local script = Instance.new('LocalScript', feature1_4)
 
 	local button = script.Parent
@@ -336,8 +350,8 @@ local function SLKUD_fake_script() -- feature1_4.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(SLKUD_fake_script)()
-local function USCNKPR_fake_script() -- feature1_4.LocalScript 
+coroutine.wrap(YZLWGO_fake_script)()
+local function THEQAYE_fake_script() -- feature1_4.LocalScript 
 	local script = Instance.new('LocalScript', feature1_4)
 
 	local button = script.Parent
@@ -354,8 +368,8 @@ local function USCNKPR_fake_script() -- feature1_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(USCNKPR_fake_script)()
-local function CDTRRMO_fake_script() -- feature1_5.LocalScript 
+coroutine.wrap(THEQAYE_fake_script)()
+local function LMQFD_fake_script() -- feature1_5.LocalScript 
 	local script = Instance.new('LocalScript', feature1_5)
 
 	local button = script.Parent
@@ -373,8 +387,8 @@ local function CDTRRMO_fake_script() -- feature1_5.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(CDTRRMO_fake_script)()
-local function PHDG_fake_script() -- feature1_5.LocalScript 
+coroutine.wrap(LMQFD_fake_script)()
+local function PWRMIBZ_fake_script() -- feature1_5.LocalScript 
 	local script = Instance.new('LocalScript', feature1_5)
 
 	local button = script.Parent
@@ -391,8 +405,8 @@ local function PHDG_fake_script() -- feature1_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(PHDG_fake_script)()
-local function QHBY_fake_script() -- feature1_6.LocalScript 
+coroutine.wrap(PWRMIBZ_fake_script)()
+local function UGGPKS_fake_script() -- feature1_6.LocalScript 
 	local script = Instance.new('LocalScript', feature1_6)
 
 	local button = script.Parent
@@ -410,8 +424,8 @@ local function QHBY_fake_script() -- feature1_6.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(QHBY_fake_script)()
-local function XEZJ_fake_script() -- feature1_6.LocalScript 
+coroutine.wrap(UGGPKS_fake_script)()
+local function IRJH_fake_script() -- feature1_6.LocalScript 
 	local script = Instance.new('LocalScript', feature1_6)
 
 	local button = script.Parent
@@ -428,8 +442,8 @@ local function XEZJ_fake_script() -- feature1_6.LocalScript
 	end)
 	
 end
-coroutine.wrap(XEZJ_fake_script)()
-local function NKLQBPP_fake_script() -- feature1_7.LocalScript 
+coroutine.wrap(IRJH_fake_script)()
+local function KRYPNYA_fake_script() -- feature1_7.LocalScript 
 	local script = Instance.new('LocalScript', feature1_7)
 
 	local button = script.Parent
@@ -447,8 +461,8 @@ local function NKLQBPP_fake_script() -- feature1_7.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(NKLQBPP_fake_script)()
-local function QYIOKE_fake_script() -- feature1_7.LocalScript 
+coroutine.wrap(KRYPNYA_fake_script)()
+local function OEQZEEG_fake_script() -- feature1_7.LocalScript 
 	local script = Instance.new('LocalScript', feature1_7)
 
 	local button = script.Parent
@@ -465,8 +479,8 @@ local function QYIOKE_fake_script() -- feature1_7.LocalScript
 	end)
 	
 end
-coroutine.wrap(QYIOKE_fake_script)()
-local function TBWREIV_fake_script() -- feature1_8.LocalScript 
+coroutine.wrap(OEQZEEG_fake_script)()
+local function WTHGAHX_fake_script() -- feature1_8.LocalScript 
 	local script = Instance.new('LocalScript', feature1_8)
 
 	local button = script.Parent
@@ -484,8 +498,8 @@ local function TBWREIV_fake_script() -- feature1_8.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(TBWREIV_fake_script)()
-local function DRRZ_fake_script() -- feature1_8.LocalScript 
+coroutine.wrap(WTHGAHX_fake_script)()
+local function CAKXE_fake_script() -- feature1_8.LocalScript 
 	local script = Instance.new('LocalScript', feature1_8)
 
 	local button = script.Parent
@@ -502,8 +516,8 @@ local function DRRZ_fake_script() -- feature1_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(DRRZ_fake_script)()
-local function HRJZO_fake_script() -- feature1_9.LocalScript 
+coroutine.wrap(CAKXE_fake_script)()
+local function RAEMOZ_fake_script() -- feature1_9.LocalScript 
 	local script = Instance.new('LocalScript', feature1_9)
 
 	local button = script.Parent
@@ -521,8 +535,8 @@ local function HRJZO_fake_script() -- feature1_9.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(HRJZO_fake_script)()
-local function NBTJZM_fake_script() -- feature1_9.LocalScript 
+coroutine.wrap(RAEMOZ_fake_script)()
+local function UFDMO_fake_script() -- feature1_9.LocalScript 
 	local script = Instance.new('LocalScript', feature1_9)
 
 	local button = script.Parent
@@ -539,8 +553,8 @@ local function NBTJZM_fake_script() -- feature1_9.LocalScript
 	end)
 	
 end
-coroutine.wrap(NBTJZM_fake_script)()
-local function JTIXK_fake_script() -- feature1_10.LocalScript 
+coroutine.wrap(UFDMO_fake_script)()
+local function VBDRT_fake_script() -- feature1_10.LocalScript 
 	local script = Instance.new('LocalScript', feature1_10)
 
 	local button = script.Parent
@@ -558,8 +572,8 @@ local function JTIXK_fake_script() -- feature1_10.LocalScript
 	button.MouseButton1Click:Connect(toggleFeature)
 	
 end
-coroutine.wrap(JTIXK_fake_script)()
-local function CTSKT_fake_script() -- feature1_10.LocalScript 
+coroutine.wrap(VBDRT_fake_script)()
+local function VUDZMBJ_fake_script() -- feature1_10.LocalScript 
 	local script = Instance.new('LocalScript', feature1_10)
 
 	local button = script.Parent
@@ -576,4 +590,41 @@ local function CTSKT_fake_script() -- feature1_10.LocalScript
 	end)
 	
 end
-coroutine.wrap(CTSKT_fake_script)()
+coroutine.wrap(VUDZMBJ_fake_script)()
+local function RRLWHCW_fake_script() -- feature1_11.LocalScript 
+	local script = Instance.new('LocalScript', feature1_11)
+
+	local button = script.Parent
+	local featureEnabled = false
+	
+	local function toggleFeature()
+		featureEnabled = not featureEnabled
+		if featureEnabled then
+			print("Feature on")  
+		else
+			print("Feature off") 
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleFeature)
+	
+end
+coroutine.wrap(RRLWHCW_fake_script)()
+local function BEXFPB_fake_script() -- feature1_11.LocalScript 
+	local script = Instance.new('LocalScript', feature1_11)
+
+	local button = script.Parent
+	
+	local defaultTransparency = 1 
+	local hoverTransparency = 0.5
+	
+	button.MouseEnter:Connect(function()
+		button.BackgroundTransparency = hoverTransparency
+	end)
+	
+	button.MouseLeave:Connect(function()
+		button.BackgroundTransparency = defaultTransparency
+	end)
+	
+end
+coroutine.wrap(BEXFPB_fake_script)()
