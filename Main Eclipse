@@ -8,23 +8,68 @@ local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local MainMods = Instance.new("TextButton")
-local Models = Instance.new("TextButton")
-local CombatMods = Instance.new("TextButton")
-local Spawnables = Instance.new("TextButton")
-local DetectionMods = Instance.new("TextButton")
-local VehicleMods = Instance.new("TextButton")
-local FunMods = Instance.new("TextButton")
-local MenuSettings = Instance.new("TextButton")
-local WeaponMods = Instance.new("TextButton")
-local SoundMods = Instance.new("TextButton")
-local HostOnly = Instance.new("TextButton")
-local Admin = Instance.new("TextButton")
-local Main = Instance.new("TextButton")
-local GanstaMods = Instance.new("TextButton")
+local Menu = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local GodMode = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local ESP = Instance.new("TextButton")
+local Invisible = Instance.new("TextButton")
+local PlayerFov = Instance.new("TextButton")
+local Menu_2 = Instance.new("Frame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local Teleport = Instance.new("TextButton")
+local Suicide = Instance.new("TextButton")
+local Rapidfire = Instance.new("TextButton")
+local Spinbot = Instance.new("TextButton")
+local Infinitejump = Instance.new("TextButton")
+local GangstaMods = Instance.new("TextButton")
+local Menu_3 = Instance.new("Frame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
 local VisionsMods = Instance.new("TextButton")
-local PlayerEffects = Instance.new("TextButton")
-local GameSettings = Instance.new("TextButton")
-local Aimbots = Instance.new("TextButton")
+local Menu_4 = Instance.new("Frame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local TextButton_22 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextButton_24 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
+local WeaponMods = Instance.new("TextButton")
+local Menu_5 = Instance.new("Frame")
+local TextButton_27 = Instance.new("TextButton")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local TextButton_28 = Instance.new("TextButton")
+local TextButton_29 = Instance.new("TextButton")
+local TextButton_30 = Instance.new("TextButton")
+local TextButton_31 = Instance.new("TextButton")
+local TextButton_32 = Instance.new("TextButton")
+local TextButton_33 = Instance.new("TextButton")
+local TextButton_34 = Instance.new("TextButton")
+local TextButton_35 = Instance.new("TextButton")
+local TextButton_36 = Instance.new("TextButton")
+local TextButton_37 = Instance.new("TextButton")
+local TextButton_38 = Instance.new("TextButton")
 
 --Properties:
 
@@ -37,7 +82,7 @@ Frame.BackgroundTransparency = 0.500
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.687811971, 0, -0.190273568, 0)
-Frame.Size = UDim2.new(0, 293, 0, 1321)
+Frame.Size = UDim2.new(0, 296, 0, 1321)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 1, 242)
@@ -64,242 +109,636 @@ TextLabel_2.TextColor3 = Color3.fromRGB(20, 223, 226)
 TextLabel_2.TextSize = 35.000
 
 MainMods.Name = "MainMods"
-MainMods.Parent = TextLabel_2
-MainMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-MainMods.BackgroundTransparency = 1.000
+MainMods.Parent = ScreenGui
+MainMods.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
 MainMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MainMods.BorderSizePixel = 0
-MainMods.Position = UDim2.new(-0.00114793039, 0, 1.35119224, 0)
-MainMods.Size = UDim2.new(0, 293, 0, 20)
+MainMods.Position = UDim2.new(0.687811971, 0, 0.582914591, 0)
+MainMods.Size = UDim2.new(0.164313182, 0, 0.0258883666, 0)
 MainMods.Font = Enum.Font.SourceSans
-MainMods.Text = " Main Mods                                                                          "
+MainMods.Text = "Main Mods                                    "
 MainMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-MainMods.TextSize = 18.000
+MainMods.TextSize = 24.000
 
-Models.Name = "Models"
-Models.Parent = TextLabel_2
-Models.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Models.BackgroundTransparency = 1.000
-Models.BorderColor3 = Color3.fromRGB(0, 255, 255)
-Models.BorderSizePixel = 0
-Models.Position = UDim2.new(-0.00114793039, 0, 4.37005949, 0)
-Models.Size = UDim2.new(0, 293, 0, 20)
-Models.Font = Enum.Font.SourceSans
-Models.Text = "Models                                                                                 "
-Models.TextColor3 = Color3.fromRGB(255, 255, 255)
-Models.TextSize = 18.000
+Menu.Name = "Menu"
+Menu.Parent = MainMods
+Menu.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Menu.BackgroundTransparency = 0.400
+Menu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Menu.BorderSizePixel = 0
+Menu.Position = UDim2.new(0, 0, 0.999999642, 0)
+Menu.Size = UDim2.new(0.999999821, 0, 0, 0)
+Menu.Visible = false
 
-CombatMods.Name = "CombatMods"
-CombatMods.Parent = TextLabel_2
-CombatMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-CombatMods.BackgroundTransparency = 1.000
-CombatMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CombatMods.BorderSizePixel = 0
-CombatMods.Position = UDim2.new(-0.00114793039, 0, 6.23798513, 0)
-CombatMods.Size = UDim2.new(0, 293, 0, 20)
-CombatMods.Font = Enum.Font.SourceSans
-CombatMods.Text = "Combat Mods                                                                    "
-CombatMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-CombatMods.TextSize = 18.000
+UIListLayout.Parent = Menu
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
-Spawnables.Name = "Spawnables"
-Spawnables.Parent = TextLabel_2
-Spawnables.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Spawnables.BackgroundTransparency = 1.000
-Spawnables.BorderColor3 = Color3.fromRGB(0, 255, 255)
-Spawnables.BorderSizePixel = 0
-Spawnables.Position = UDim2.new(-0.00114793039, 0, 4.74741793, 0)
-Spawnables.Size = UDim2.new(0, 293, 0, 20)
-Spawnables.Font = Enum.Font.SourceSans
-Spawnables.Text = "Spawnables                                                                       "
-Spawnables.TextColor3 = Color3.fromRGB(255, 255, 255)
-Spawnables.TextSize = 18.000
+GodMode.Name = "GodMode"
+GodMode.Parent = Menu
+GodMode.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+GodMode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GodMode.BorderSizePixel = 0
+GodMode.Size = UDim2.new(1, 0, 0.0361445732, 0)
+GodMode.Font = Enum.Font.SourceSans
+GodMode.Text = "GodMode                                       "
+GodMode.TextColor3 = Color3.fromRGB(255, 0, 191)
+GodMode.TextSize = 24.000
 
-DetectionMods.Name = "DetectionMods"
-DetectionMods.Parent = TextLabel_2
-DetectionMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-DetectionMods.BackgroundTransparency = 1.000
-DetectionMods.BorderColor3 = Color3.fromRGB(0, 255, 255)
-DetectionMods.BorderSizePixel = 0
-DetectionMods.Position = UDim2.new(-0.00114793039, 0, 6.99270248, 0)
-DetectionMods.Size = UDim2.new(0, 293, 0, 20)
-DetectionMods.Font = Enum.Font.SourceSans
-DetectionMods.Text = "Detection Mods                                                                "
-DetectionMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-DetectionMods.TextSize = 18.000
+Speed.Name = "Speed"
+Speed.Parent = Menu
+Speed.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BorderSizePixel = 0
+Speed.Size = UDim2.new(1, 0, 0.0361445732, 0)
+Speed.Font = Enum.Font.SourceSans
+Speed.Text = "Speed                                              "
+Speed.TextColor3 = Color3.fromRGB(255, 0, 191)
+Speed.TextSize = 24.000
 
-VehicleMods.Name = "VehicleMods"
-VehicleMods.Parent = TextLabel_2
-VehicleMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-VehicleMods.BackgroundTransparency = 1.000
-VehicleMods.BorderColor3 = Color3.fromRGB(0, 255, 255)
-VehicleMods.BorderSizePixel = 0
-VehicleMods.Position = UDim2.new(-0.00114793039, 0, 6.61534357, 0)
-VehicleMods.Size = UDim2.new(0, 293, 0, 20)
-VehicleMods.Font = Enum.Font.SourceSans
-VehicleMods.Text = "Vehicle Mods                                                                     "
-VehicleMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-VehicleMods.TextSize = 18.000
+ESP.Name = "ESP"
+ESP.Parent = Menu
+ESP.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+ESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP.BorderSizePixel = 0
+ESP.Size = UDim2.new(1, 0, 0.0361445732, 0)
+ESP.Font = Enum.Font.SourceSans
+ESP.Text = "ESP                                                   "
+ESP.TextColor3 = Color3.fromRGB(255, 0, 191)
+ESP.TextSize = 24.000
 
-FunMods.Name = "FunMods"
-FunMods.Parent = TextLabel_2
-FunMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-FunMods.BackgroundTransparency = 1.000
-FunMods.BorderColor3 = Color3.fromRGB(0, 255, 255)
-FunMods.BorderSizePixel = 0
-FunMods.Position = UDim2.new(-0.00114793039, 0, 7.37005949, 0)
-FunMods.Size = UDim2.new(0, 293, 0, 20)
-FunMods.Font = Enum.Font.SourceSans
-FunMods.Text = "Fun Mods                                                                            "
-FunMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-FunMods.TextSize = 18.000
+Invisible.Name = "Invisible"
+Invisible.Parent = Menu
+Invisible.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Invisible.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Invisible.BorderSizePixel = 0
+Invisible.Size = UDim2.new(1, 0, 0.0361445732, 0)
+Invisible.Font = Enum.Font.SourceSans
+Invisible.Text = "Invisible                                          "
+Invisible.TextColor3 = Color3.fromRGB(255, 0, 191)
+Invisible.TextSize = 24.000
 
-MenuSettings.Name = "MenuSettings"
-MenuSettings.Parent = TextLabel_2
-MenuSettings.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-MenuSettings.BackgroundTransparency = 1.000
-MenuSettings.BorderColor3 = Color3.fromRGB(0, 255, 255)
-MenuSettings.BorderSizePixel = 0
-MenuSettings.Position = UDim2.new(-0.00114793039, 0, 5.87949371, 0)
-MenuSettings.Size = UDim2.new(0, 293, 0, 20)
-MenuSettings.Font = Enum.Font.SourceSans
-MenuSettings.Text = "Menu Settings                                                                   "
-MenuSettings.TextColor3 = Color3.fromRGB(255, 255, 255)
-MenuSettings.TextSize = 18.000
+PlayerFov.Name = "PlayerFov"
+PlayerFov.Parent = Menu
+PlayerFov.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+PlayerFov.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerFov.BorderSizePixel = 0
+PlayerFov.Size = UDim2.new(1, 0, 0.0361445732, 0)
+PlayerFov.Font = Enum.Font.SourceSans
+PlayerFov.Text = "--->Player FOV                              "
+PlayerFov.TextColor3 = Color3.fromRGB(255, 0, 4)
+PlayerFov.TextSize = 24.000
 
-WeaponMods.Name = "WeaponMods"
-WeaponMods.Parent = TextLabel_2
-WeaponMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-WeaponMods.BackgroundTransparency = 1.000
-WeaponMods.BorderColor3 = Color3.fromRGB(0, 255, 255)
-WeaponMods.BorderSizePixel = 0
-WeaponMods.Position = UDim2.new(-0.00114793039, 0, 2.48326707, 0)
-WeaponMods.Size = UDim2.new(0, 293, 0, 20)
-WeaponMods.Font = Enum.Font.SourceSans
-WeaponMods.Text = "Weapon Mods                                                                   "
-WeaponMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-WeaponMods.TextSize = 18.000
+Menu_2.Name = "Menu"
+Menu_2.Parent = PlayerFov
+Menu_2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Menu_2.BackgroundTransparency = 0.500
+Menu_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Menu_2.BorderSizePixel = 0
+Menu_2.Position = UDim2.new(-0.878987253, 0, -0.0667528436, 0)
+Menu_2.Size = UDim2.new(0.876565397, 0, 23.7334213, 0)
+Menu_2.Visible = false
 
-SoundMods.Name = "SoundMods"
-SoundMods.Parent = TextLabel_2
-SoundMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-SoundMods.BackgroundTransparency = 1.000
-SoundMods.BorderColor3 = Color3.fromRGB(0, 255, 255)
-SoundMods.BorderSizePixel = 0
-SoundMods.Position = UDim2.new(-0.00114793039, 0, 3.61534262, 0)
-SoundMods.Size = UDim2.new(0, 293, 0, 20)
-SoundMods.Font = Enum.Font.SourceSans
-SoundMods.Text = "Sound Mods                                                                       "
-SoundMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-SoundMods.TextSize = 18.000
+UIListLayout_2.Parent = Menu_2
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 
-HostOnly.Name = "HostOnly"
-HostOnly.Parent = TextLabel_2
-HostOnly.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-HostOnly.BackgroundTransparency = 1.000
-HostOnly.BorderColor3 = Color3.fromRGB(0, 255, 255)
-HostOnly.BorderSizePixel = 0
-HostOnly.Position = UDim2.new(-0.00114793039, 0, 5.50213528, 0)
-HostOnly.Size = UDim2.new(0, 293, 0, 20)
-HostOnly.Font = Enum.Font.SourceSans
-HostOnly.Text = "Host Only                                                                            "
-HostOnly.TextColor3 = Color3.fromRGB(255, 255, 255)
-HostOnly.TextSize = 18.000
+TextButton.Parent = Menu_2
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "80 FOV                                      "
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton.TextSize = 24.000
 
-Admin.Name = "Admin"
-Admin.Parent = TextLabel_2
-Admin.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Admin.BackgroundTransparency = 1.000
-Admin.BorderColor3 = Color3.fromRGB(0, 255, 255)
-Admin.BorderSizePixel = 0
-Admin.Position = UDim2.new(-0.00114793039, 0, 5.12477636, 0)
-Admin.Size = UDim2.new(0, 293, 0, 20)
-Admin.Font = Enum.Font.SourceSans
-Admin.Text = "Admin                                                                                  "
-Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
-Admin.TextSize = 18.000
+TextButton_2.Parent = Menu_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "90 FOV                                      "
+TextButton_2.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_2.TextSize = 24.000
 
-Main.Name = "Main"
-Main.Parent = TextLabel_2
-Main.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Main.BackgroundTransparency = 1.000
-Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Main.BorderSizePixel = 0
-Main.Position = UDim2.new(-0.00114793039, 0, 0.99270153, 0)
-Main.Size = UDim2.new(0, 293, 0, 20)
-Main.Font = Enum.Font.SourceSans
-Main.Text = " Main                                                                                      "
-Main.TextColor3 = Color3.fromRGB(255, 255, 255)
-Main.TextSize = 18.000
+TextButton_3.Parent = Menu_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "100 FOV                                    "
+TextButton_3.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_3.TextSize = 24.000
 
-GanstaMods.Name = "GanstaMods"
-GanstaMods.Parent = TextLabel_2
-GanstaMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-GanstaMods.BackgroundTransparency = 1.000
-GanstaMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
-GanstaMods.BorderSizePixel = 0
-GanstaMods.Position = UDim2.new(-0.00114793039, 0, 1.72855079, 0)
-GanstaMods.Size = UDim2.new(0, 293, 0, 20)
-GanstaMods.Font = Enum.Font.SourceSans
-GanstaMods.Text = " Gangsta Mods                                                                    "
-GanstaMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-GanstaMods.TextSize = 18.000
+TextButton_4.Parent = Menu_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(-0.00480769249, 0, 0.205216244, 0)
+TextButton_4.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "110 FOV                                    "
+TextButton_4.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_4.TextSize = 24.000
+
+TextButton_5.Parent = Menu_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "120 FOV                                    "
+TextButton_5.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_5.TextSize = 24.000
+
+TextButton_6.Parent = Menu_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "130 FOV                                    "
+TextButton_6.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_6.TextSize = 24.000
+
+TextButton_7.Parent = Menu_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "140 FOV                                    "
+TextButton_7.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_7.TextSize = 24.000
+
+TextButton_8.Parent = Menu_2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "150 FOV                                    "
+TextButton_8.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_8.TextSize = 24.000
+
+TextButton_9.Parent = Menu_2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(-1.28365386, 0, 0.58438617, 0)
+TextButton_9.Size = UDim2.new(1, 0, 0.0712625533, 0)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = " 160 FOV                                     "
+TextButton_9.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_9.TextSize = 24.000
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Menu
+Noclip.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Noclip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.BorderSizePixel = 0
+Noclip.Size = UDim2.new(1, 0, 0.0361445732, 0)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip                                             "
+Noclip.TextColor3 = Color3.fromRGB(255, 0, 191)
+Noclip.TextSize = 24.000
+
+Teleport.Name = "Teleport"
+Teleport.Parent = Menu
+Teleport.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Teleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.BorderSizePixel = 0
+Teleport.Size = UDim2.new(1, 0, 0.0361445732, 0)
+Teleport.Font = Enum.Font.SourceSans
+Teleport.Text = "Teleport                                         "
+Teleport.TextColor3 = Color3.fromRGB(255, 0, 191)
+Teleport.TextSize = 24.000
+
+Suicide.Name = "Suicide"
+Suicide.Parent = Menu
+Suicide.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Suicide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Suicide.BorderSizePixel = 0
+Suicide.Size = UDim2.new(1, 0, 0.0361445732, 0)
+Suicide.Font = Enum.Font.SourceSans
+Suicide.Text = "Suicide                                           "
+Suicide.TextColor3 = Color3.fromRGB(255, 0, 191)
+Suicide.TextSize = 24.000
+
+Rapidfire.Name = "Rapidfire"
+Rapidfire.Parent = Menu
+Rapidfire.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Rapidfire.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rapidfire.BorderSizePixel = 0
+Rapidfire.Size = UDim2.new(1, 0, 0.0361445732, 0)
+Rapidfire.Font = Enum.Font.SourceSans
+Rapidfire.Text = "Rapidfire                                        "
+Rapidfire.TextColor3 = Color3.fromRGB(255, 0, 191)
+Rapidfire.TextSize = 24.000
+
+Spinbot.Name = "Spinbot"
+Spinbot.Parent = Menu
+Spinbot.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Spinbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Spinbot.BorderSizePixel = 0
+Spinbot.Position = UDim2.new(-0.0125569608, 0, 0.32530117, 0)
+Spinbot.Size = UDim2.new(1, 0, 0.0361445732, 0)
+Spinbot.Font = Enum.Font.SourceSans
+Spinbot.Text = "SpinBot                                          "
+Spinbot.TextColor3 = Color3.fromRGB(255, 0, 191)
+Spinbot.TextSize = 24.000
+
+Infinitejump.Name = "Infinitejump"
+Infinitejump.Parent = Menu
+Infinitejump.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Infinitejump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Infinitejump.BorderSizePixel = 0
+Infinitejump.Size = UDim2.new(1, 0, 0.0361445732, 0)
+Infinitejump.Font = Enum.Font.SourceSans
+Infinitejump.Text = "InfiniteJump                                "
+Infinitejump.TextColor3 = Color3.fromRGB(255, 0, 191)
+Infinitejump.TextSize = 24.000
+
+GangstaMods.Name = "GangstaMods"
+GangstaMods.Parent = MainMods
+GangstaMods.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+GangstaMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GangstaMods.BorderSizePixel = 0
+GangstaMods.Position = UDim2.new(0, 0, -1.06759119, 0)
+GangstaMods.Size = UDim2.new(1.00000012, 0, 1.06759179, 0)
+GangstaMods.Font = Enum.Font.SourceSans
+GangstaMods.Text = "Gangsta Mods                              "
+GangstaMods.TextColor3 = Color3.fromRGB(255, 255, 255)
+GangstaMods.TextSize = 24.000
+
+Menu_3.Name = "Menu"
+Menu_3.Parent = GangstaMods
+Menu_3.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Menu_3.BackgroundTransparency = 0.800
+Menu_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Menu_3.BorderSizePixel = 0
+Menu_3.Position = UDim2.new(0, 0, 0.971146405, 0)
+Menu_3.Size = UDim2.new(0.99999994, 0, 0.0288529657, 0)
+Menu_3.Visible = false
+
+UIListLayout_3.Parent = Menu_3
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextButton_10.Parent = Menu_3
+TextButton_10.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Size = UDim2.new(1, 0, 0.0860377923, 0)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "AntiAimAngle UP                       "
+TextButton_10.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_10.TextSize = 24.000
+
+TextButton_11.Parent = Menu_3
+TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Size = UDim2.new(1, 0, 0.0860377923, 0)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "AntiAimAngle DOWN                "
+TextButton_11.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_11.TextSize = 24.000
+
+TextButton_12.Parent = Menu_3
+TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Size = UDim2.new(1, 0, 0.0860377923, 0)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "AntiAimAngle RANDOM           "
+TextButton_12.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_12.TextSize = 24.000
+
+TextButton_13.Parent = Menu_3
+TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Size = UDim2.new(1, 0, 0.0860377923, 0)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "Coming Soon                               "
+TextButton_13.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_13.TextSize = 24.000
+
+TextButton_14.Parent = Menu_3
+TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Size = UDim2.new(1, 0, 0.0860377923, 0)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Coming Soon                               "
+TextButton_14.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_14.TextSize = 24.000
+
+TextButton_15.Parent = Menu_3
+TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Size = UDim2.new(1, 0, 0.0860377923, 0)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Coming Soon                               "
+TextButton_15.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_15.TextSize = 24.000
 
 VisionsMods.Name = "VisionsMods"
-VisionsMods.Parent = TextLabel_2
-VisionsMods.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-VisionsMods.BackgroundTransparency = 1.000
+VisionsMods.Parent = GangstaMods
+VisionsMods.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
 VisionsMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
 VisionsMods.BorderSizePixel = 0
-VisionsMods.Position = UDim2.new(-0.00114793039, 0, 2.10590935, 0)
-VisionsMods.Size = UDim2.new(0, 293, 0, 20)
+VisionsMods.Position = UDim2.new(0, 0, -0.999999404, 0)
+VisionsMods.Size = UDim2.new(0.99999994, 0, 0.999999404, 0)
 VisionsMods.Font = Enum.Font.SourceSans
-VisionsMods.Text = " Visions Mods                                                                      "
+VisionsMods.Text = "Visions Mods                                "
 VisionsMods.TextColor3 = Color3.fromRGB(255, 255, 255)
-VisionsMods.TextSize = 18.000
+VisionsMods.TextSize = 24.000
 
-PlayerEffects.Name = "PlayerEffects"
-PlayerEffects.Parent = TextLabel_2
-PlayerEffects.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-PlayerEffects.BackgroundTransparency = 1.000
-PlayerEffects.BorderColor3 = Color3.fromRGB(0, 255, 255)
-PlayerEffects.BorderSizePixel = 0
-PlayerEffects.Position = UDim2.new(-0.00114793039, 0, 2.86062574, 0)
-PlayerEffects.Size = UDim2.new(0, 293, 0, 20)
-PlayerEffects.Font = Enum.Font.SourceSans
-PlayerEffects.Text = "Player Effects                                                                    "
-PlayerEffects.TextColor3 = Color3.fromRGB(255, 255, 255)
-PlayerEffects.TextSize = 18.000
+Menu_4.Name = "Menu"
+Menu_4.Parent = VisionsMods
+Menu_4.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Menu_4.BackgroundTransparency = 0.800
+Menu_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Menu_4.BorderSizePixel = 0
+Menu_4.Position = UDim2.new(0, 0, 0.909090936, 0)
+Menu_4.Size = UDim2.new(1, 0, 0, 0)
+Menu_4.Visible = false
 
-GameSettings.Name = "GameSettings"
-GameSettings.Parent = TextLabel_2
-GameSettings.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-GameSettings.BackgroundTransparency = 1.000
-GameSettings.BorderColor3 = Color3.fromRGB(0, 255, 255)
-GameSettings.BorderSizePixel = 0
-GameSettings.Position = UDim2.new(-0.00114793039, 0, 3.23798418, 0)
-GameSettings.Size = UDim2.new(0, 293, 0, 20)
-GameSettings.Font = Enum.Font.SourceSans
-GameSettings.Text = "Game Settings                                                                  "
-GameSettings.TextColor3 = Color3.fromRGB(255, 255, 255)
-GameSettings.TextSize = 18.000
+UIListLayout_4.Parent = Menu_4
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
 
-Aimbots.Name = "Aimbots"
-Aimbots.Parent = TextLabel_2
-Aimbots.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Aimbots.BackgroundTransparency = 1.000
-Aimbots.BorderColor3 = Color3.fromRGB(0, 255, 255)
-Aimbots.BorderSizePixel = 0
-Aimbots.Position = UDim2.new(-0.00114793039, 0, 3.99270105, 0)
-Aimbots.Size = UDim2.new(0, 293, 0, 20)
-Aimbots.Font = Enum.Font.SourceSans
-Aimbots.Text = "Aimbots                                                                               "
-Aimbots.TextColor3 = Color3.fromRGB(255, 255, 255)
-Aimbots.TextSize = 18.000
+TextButton_16.Parent = Menu_4
+TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_16.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "Names                                            "
+TextButton_16.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_16.TextSize = 24.000
+
+TextButton_17.Parent = Menu_4
+TextButton_17.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_17.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "Names Outlines                          "
+TextButton_17.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_17.TextSize = 24.000
+
+TextButton_18.Parent = Menu_4
+TextButton_18.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_18.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "Weapon                                          "
+TextButton_18.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_18.TextSize = 24.000
+
+TextButton_19.Parent = Menu_4
+TextButton_19.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_19.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "Weapon Outlines                       "
+TextButton_19.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_19.TextSize = 24.000
+
+TextButton_20.Parent = Menu_4
+TextButton_20.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_20.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "Distance                                          "
+TextButton_20.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_20.TextSize = 24.000
+
+TextButton_21.Parent = Menu_4
+TextButton_21.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.BorderSizePixel = 0
+TextButton_21.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_21.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Distance Outlines                       "
+TextButton_21.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_21.TextSize = 24.000
+
+TextButton_22.Parent = Menu_4
+TextButton_22.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.BorderSizePixel = 0
+TextButton_22.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_22.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "Boxes ESP                                      "
+TextButton_22.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_22.TextSize = 24.000
+
+TextButton_23.Parent = Menu_4
+TextButton_23.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.BorderSizePixel = 0
+TextButton_23.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_23.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "Boxes FILL                                     "
+TextButton_23.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_23.TextSize = 24.000
+
+TextButton_24.Parent = Menu_4
+TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.BorderSizePixel = 0
+TextButton_24.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_24.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Text = "Boxes Outlines                            "
+TextButton_24.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_24.TextSize = 24.000
+
+TextButton_25.Parent = Menu_4
+TextButton_25.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.BorderSizePixel = 0
+TextButton_25.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_25.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "Player InfoBored                        "
+TextButton_25.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_25.TextSize = 24.000
+
+TextButton_26.Parent = Menu_4
+TextButton_26.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BorderSizePixel = 0
+TextButton_26.Position = UDim2.new(-0.00420168089, 0, 0, 0)
+TextButton_26.Size = UDim2.new(1, 0, 0.0847457573, 0)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "Render Range                              "
+TextButton_26.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_26.TextSize = 24.000
+
+WeaponMods.Name = "WeaponMods"
+WeaponMods.Parent = VisionsMods
+WeaponMods.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+WeaponMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WeaponMods.BorderSizePixel = 0
+WeaponMods.Position = UDim2.new(0, 0, -1, 0)
+WeaponMods.Size = UDim2.new(1, 0, 1, 0)
+WeaponMods.Font = Enum.Font.SourceSans
+WeaponMods.Text = "Weapon Mods                              "
+WeaponMods.TextColor3 = Color3.fromRGB(255, 255, 255)
+WeaponMods.TextSize = 24.000
+
+Menu_5.Name = "Menu"
+Menu_5.Parent = WeaponMods
+Menu_5.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+Menu_5.BackgroundTransparency = 0.900
+Menu_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Menu_5.BorderSizePixel = 0
+Menu_5.Position = UDim2.new(0, 0, 0.954545438, 0)
+Menu_5.Size = UDim2.new(1, 0, 0, 0)
+Menu_5.Visible = false
+
+TextButton_27.Parent = Menu_5
+TextButton_27.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BorderSizePixel = 0
+TextButton_27.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_27.Font = Enum.Font.SourceSans
+TextButton_27.Text = "No Recoil                                       "
+TextButton_27.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_27.TextSize = 24.000
+
+UIListLayout_5.Parent = Menu_5
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextButton_28.Parent = Menu_5
+TextButton_28.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.BorderSizePixel = 0
+TextButton_28.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_28.Font = Enum.Font.SourceSans
+TextButton_28.Text = "No Recoil Slider                          "
+TextButton_28.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_28.TextSize = 24.000
+
+TextButton_29.Parent = Menu_5
+TextButton_29.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.BorderSizePixel = 0
+TextButton_29.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_29.Font = Enum.Font.SourceSans
+TextButton_29.Text = "Auto Reload                                 "
+TextButton_29.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_29.TextSize = 24.000
+
+TextButton_30.Parent = Menu_5
+TextButton_30.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_30.BorderSizePixel = 0
+TextButton_30.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_30.Font = Enum.Font.SourceSans
+TextButton_30.Text = "No Weapon Bob                         "
+TextButton_30.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_30.TextSize = 24.000
+
+TextButton_31.Parent = Menu_5
+TextButton_31.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_31.BorderSizePixel = 0
+TextButton_31.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_31.Font = Enum.Font.SourceSans
+TextButton_31.Text = "Coming Soon                               "
+TextButton_31.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_31.TextSize = 24.000
+
+TextButton_32.Parent = Menu_5
+TextButton_32.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_32.BorderSizePixel = 0
+TextButton_32.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_32.Font = Enum.Font.SourceSans
+TextButton_32.Text = "Coming soon                               "
+TextButton_32.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_32.TextSize = 24.000
+
+TextButton_33.Parent = Menu_5
+TextButton_33.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_33.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_33.BorderSizePixel = 0
+TextButton_33.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_33.Font = Enum.Font.SourceSans
+TextButton_33.Text = "Coming Soon                               "
+TextButton_33.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_33.TextSize = 24.000
+
+TextButton_34.Parent = Menu_5
+TextButton_34.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_34.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_34.BorderSizePixel = 0
+TextButton_34.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_34.Font = Enum.Font.SourceSans
+TextButton_34.Text = "Coming Soon                               "
+TextButton_34.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_34.TextSize = 24.000
+
+TextButton_35.Parent = Menu_5
+TextButton_35.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_35.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_35.BorderSizePixel = 0
+TextButton_35.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_35.Font = Enum.Font.SourceSans
+TextButton_35.Text = "Coming Soon                               "
+TextButton_35.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_35.TextSize = 24.000
+
+TextButton_36.Parent = Menu_5
+TextButton_36.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_36.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_36.BorderSizePixel = 0
+TextButton_36.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_36.Font = Enum.Font.SourceSans
+TextButton_36.Text = "Coming Soon                               "
+TextButton_36.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_36.TextSize = 24.000
+
+TextButton_37.Parent = Menu_5
+TextButton_37.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_37.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_37.BorderSizePixel = 0
+TextButton_37.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_37.Font = Enum.Font.SourceSans
+TextButton_37.Text = "Coming Soon                               "
+TextButton_37.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_37.TextSize = 24.000
+
+TextButton_38.Parent = Menu_5
+TextButton_38.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton_38.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_38.BorderSizePixel = 0
+TextButton_38.Size = UDim2.new(1, 0, 0.0797872245, 0)
+TextButton_38.Font = Enum.Font.SourceSans
+TextButton_38.Text = "Coming Soon                               "
+TextButton_38.TextColor3 = Color3.fromRGB(255, 0, 191)
+TextButton_38.TextSize = 24.000
 
 -- Scripts:
 
-local function IWTQHL_fake_script() -- Frame.LocalScript 
+local function DWDYANU_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game :GetService("UserInputService")
@@ -318,9 +757,9 @@ local function IWTQHL_fake_script() -- Frame.LocalScript
 	
 	UserInputService.InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(IWTQHL_fake_script)()
-local function PHJGYNN_fake_script() -- MainMods.LocalScript 
-	local script = Instance.new('LocalScript', MainMods)
+coroutine.wrap(DWDYANU_fake_script)()
+local function ZURJDUU_fake_script() -- Noclip.LocalScript 
+	local script = Instance.new('LocalScript', Noclip)
 
 	local button = script.Parent
 	local featureEnabled = false
@@ -375,435 +814,10 @@ local function PHJGYNN_fake_script() -- MainMods.LocalScript
 	end
 	
 	button.MouseButton1Click:Connect(toggleFeature)
-	
 end
-coroutine.wrap(PHJGYNN_fake_script)()
-local function BVDFB_fake_script() -- MainMods.LocalScript 
-	local script = Instance.new('LocalScript', MainMods)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-end
-coroutine.wrap(BVDFB_fake_script)()
-local function EBYN_fake_script() -- Models.LocalScript 
-	local script = Instance.new('LocalScript', Models)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(EBYN_fake_script)()
-local function YNNE_fake_script() -- Models.LocalScript 
-	local script = Instance.new('LocalScript', Models)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(YNNE_fake_script)()
-local function TEONHX_fake_script() -- CombatMods.LocalScript 
-	local script = Instance.new('LocalScript', CombatMods)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(TEONHX_fake_script)()
-local function HUTFES_fake_script() -- CombatMods.LocalScript 
-	local script = Instance.new('LocalScript', CombatMods)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(HUTFES_fake_script)()
-local function EWPDCI_fake_script() -- Spawnables.LocalScript 
-	local script = Instance.new('LocalScript', Spawnables)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(EWPDCI_fake_script)()
-local function TYZHVUG_fake_script() -- Spawnables.LocalScript 
-	local script = Instance.new('LocalScript', Spawnables)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(TYZHVUG_fake_script)()
-local function MEXAEII_fake_script() -- DetectionMods.LocalScript 
-	local script = Instance.new('LocalScript', DetectionMods)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(MEXAEII_fake_script)()
-local function FBHK_fake_script() -- DetectionMods.LocalScript 
-	local script = Instance.new('LocalScript', DetectionMods)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(FBHK_fake_script)()
-local function JFXND_fake_script() -- VehicleMods.LocalScript 
-	local script = Instance.new('LocalScript', VehicleMods)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(JFXND_fake_script)()
-local function PFZQUU_fake_script() -- VehicleMods.LocalScript 
-	local script = Instance.new('LocalScript', VehicleMods)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(PFZQUU_fake_script)()
-local function RXFYPDG_fake_script() -- FunMods.LocalScript 
-	local script = Instance.new('LocalScript', FunMods)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(RXFYPDG_fake_script)()
-local function LRXPIX_fake_script() -- FunMods.LocalScript 
-	local script = Instance.new('LocalScript', FunMods)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(LRXPIX_fake_script)()
-local function GAANR_fake_script() -- MenuSettings.LocalScript 
-	local script = Instance.new('LocalScript', MenuSettings)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(GAANR_fake_script)()
-local function HPSKDV_fake_script() -- MenuSettings.LocalScript 
-	local script = Instance.new('LocalScript', MenuSettings)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(HPSKDV_fake_script)()
-local function KJNCP_fake_script() -- WeaponMods.LocalScript 
-	local script = Instance.new('LocalScript', WeaponMods)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(KJNCP_fake_script)()
-local function SCJN_fake_script() -- WeaponMods.LocalScript 
-	local script = Instance.new('LocalScript', WeaponMods)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(SCJN_fake_script)()
-local function KNSP_fake_script() -- SoundMods.LocalScript 
-	local script = Instance.new('LocalScript', SoundMods)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(KNSP_fake_script)()
-local function RGOB_fake_script() -- SoundMods.LocalScript 
-	local script = Instance.new('LocalScript', SoundMods)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(RGOB_fake_script)()
-local function CLFO_fake_script() -- HostOnly.LocalScript 
-	local script = Instance.new('LocalScript', HostOnly)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(CLFO_fake_script)()
-local function QZDHNKT_fake_script() -- HostOnly.LocalScript 
-	local script = Instance.new('LocalScript', HostOnly)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(QZDHNKT_fake_script)()
-local function HYHB_fake_script() -- Admin.LocalScript 
-	local script = Instance.new('LocalScript', Admin)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(HYHB_fake_script)()
-local function HWSM_fake_script() -- Admin.LocalScript 
-	local script = Instance.new('LocalScript', Admin)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(HWSM_fake_script)()
-local function LADY_fake_script() -- Main.LocalScript 
-	local script = Instance.new('LocalScript', Main)
+coroutine.wrap(ZURJDUU_fake_script)()
+local function UIWBBDS_fake_script() -- Infinitejump.LocalScript 
+	local script = Instance.new('LocalScript', Infinitejump)
 
 	local button = script.Parent
 	local featureEnabled = false
@@ -833,207 +847,264 @@ local function LADY_fake_script() -- Main.LocalScript
 	
 	button.MouseButton1Click:Connect(toggleFeature)
 end
-coroutine.wrap(LADY_fake_script)()
-local function JNRDXOO_fake_script() -- Main.LocalScript 
-	local script = Instance.new('LocalScript', Main)
+coroutine.wrap(UIWBBDS_fake_script)()
+local function GYGL_fake_script() -- MainMods.LocalScript 
+	local script = Instance.new('LocalScript', MainMods)
 
-	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
 	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
+	local tweenInfo = TweenInfo.new(
+		0.1,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.Out,
+		0,
+		false,
+		0
+	)
 	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
+	local openTween = TweenService:Create(script.Parent.Menu, tweenInfo, {Size = UDim2.new(1, 0,32, 0)})
+	local closeTween = TweenService:Create(script.Parent.Menu, tweenInfo, {Size = UDim2.new(1, 0,0, 0)})
 	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
+	local open = false
 	
-end
-coroutine.wrap(JNRDXOO_fake_script)()
-local function ACTV_fake_script() -- GanstaMods.LocalScript 
-	local script = Instance.new('LocalScript', GanstaMods)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
+	local function createTransparencyTweens(menu, targetTransparency)
+		local tweens = {}
+		for _, descendant in ipairs(menu:GetDescendants()) do
+			if descendant:IsA("Frame") or descendant:IsA("TextLabel") or descendant:IsA("ImageLabel") then
+				local tween = TweenService:Create(descendant, tweenInfo, {BackgroundTransparency = targetTransparency})
+				table.insert(tweens, tween)
+			elseif descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+				local tween = TweenService:Create(descendant, tweenInfo, {
+					BackgroundTransparency = targetTransparency,
+					TextTransparency = targetTransparency
+				})
+				table.insert(tweens, tween)
+			elseif descendant:IsA("ImageButton") then
+				local tween = TweenService:Create(descendant, tweenInfo, {
+					BackgroundTransparency = targetTransparency,
+					ImageTransparency = targetTransparency
+				})
+				table.insert(tweens, tween)
+			end
 		end
+		return tweens
 	end
 	
-	button.MouseButton1Click:Connect(toggleFeature)
+	script.Parent.MouseButton1Click:Connect(function()
+		if not open then
+			script.Parent.Menu.Visible = true
+			openTween:Play()
 	
+			local openTweens = createTransparencyTweens(script.Parent.Menu, 0)
+			for _, tween in ipairs(openTweens) do
+				tween:Play()
+			end
+		else
+			local closeTweens = createTransparencyTweens(script.Parent.Menu, 1)
+			for _, tween in ipairs(closeTweens) do
+				tween:Play()
+			end
+	
+			closeTween:Play()
+			closeTween.Completed:Wait()
+			script.Parent.Menu.Visible = false
+		end
+		open = not open
+	end)
 end
-coroutine.wrap(ACTV_fake_script)()
-local function TJPWNEU_fake_script() -- GanstaMods.LocalScript 
-	local script = Instance.new('LocalScript', GanstaMods)
+coroutine.wrap(GYGL_fake_script)()
+local function WQNZ_fake_script() -- GangstaMods.LocalScript 
+	local script = Instance.new('LocalScript', GangstaMods)
 
-	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
 	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
+	local tweenInfo = TweenInfo.new(
+		0.1,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.Out,
+		0,
+		false,
+		0
+	)
 	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
+	local openTween = TweenService:Create(script.Parent.Menu, tweenInfo, {Size = UDim2.new(1, 0,15.12, 0)})
+	local closeTween = TweenService:Create(script.Parent.Menu, tweenInfo, {Size = UDim2.new(1, 0,0.029, 0)})
+	
+	local open = false
+	
+	local function createTransparencyTweens(menu, targetTransparency)
+		local tweens = {}
+		for _, descendant in ipairs(menu:GetDescendants()) do
+			if descendant:IsA("Frame") or descendant:IsA("TextLabel") or descendant:IsA("ImageLabel") then
+				local tween = TweenService:Create(descendant, tweenInfo, {BackgroundTransparency = targetTransparency})
+				table.insert(tweens, tween)
+			elseif descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+				local tween = TweenService:Create(descendant, tweenInfo, {
+					BackgroundTransparency = targetTransparency,
+					TextTransparency = targetTransparency
+				})
+				table.insert(tweens, tween)
+			elseif descendant:IsA("ImageButton") then
+				local tween = TweenService:Create(descendant, tweenInfo, {
+					BackgroundTransparency = targetTransparency,
+					ImageTransparency = targetTransparency
+				})
+				table.insert(tweens, tween)
+			end
+		end
+		return tweens
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if not open then
+			script.Parent.Menu.Visible = true
+			openTween:Play()
+	
+			local openTweens = createTransparencyTweens(script.Parent.Menu, 0)
+			for _, tween in ipairs(openTweens) do
+				tween:Play()
+			end
+		else
+			local closeTweens = createTransparencyTweens(script.Parent.Menu, 1)
+			for _, tween in ipairs(closeTweens) do
+				tween:Play()
+			end
+	
+			closeTween:Play()
+			closeTween.Completed:Wait()
+			script.Parent.Menu.Visible = false
+		end
+		open = not open
 	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
 end
-coroutine.wrap(TJPWNEU_fake_script)()
-local function DCKHSYB_fake_script() -- VisionsMods.LocalScript 
+coroutine.wrap(WQNZ_fake_script)()
+local function JOKQL_fake_script() -- VisionsMods.LocalScript 
 	local script = Instance.new('LocalScript', VisionsMods)
 
-	local button = script.Parent
-	local featureEnabled = false
+	local TweenService = game:GetService("TweenService")
 	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
+	local tweenInfo = TweenInfo.new(
+		0.1,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.Out,
+		0,
+		false,
+		0
+	)
+	
+	local openTween = TweenService:Create(script.Parent.Menu, tweenInfo, {Size = UDim2.new(0.996, 0,16, 0)})
+	local closeTween = TweenService:Create(script.Parent.Menu, tweenInfo, {Size = UDim2.new(0.996, 0,0, 0)})
+	
+	local open = false
+	
+	local function createTransparencyTweens(menu, targetTransparency)
+		local tweens = {}
+		for _, descendant in ipairs(menu:GetDescendants()) do
+			if descendant:IsA("Frame") or descendant:IsA("TextLabel") or descendant:IsA("ImageLabel") then
+				local tween = TweenService:Create(descendant, tweenInfo, {BackgroundTransparency = targetTransparency})
+				table.insert(tweens, tween)
+			elseif descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+				local tween = TweenService:Create(descendant, tweenInfo, {
+					BackgroundTransparency = targetTransparency,
+					TextTransparency = targetTransparency
+				})
+				table.insert(tweens, tween)
+			elseif descendant:IsA("ImageButton") then
+				local tween = TweenService:Create(descendant, tweenInfo, {
+					BackgroundTransparency = targetTransparency,
+					ImageTransparency = targetTransparency
+				})
+				table.insert(tweens, tween)
+			end
 		end
+		return tweens
 	end
 	
-	button.MouseButton1Click:Connect(toggleFeature)
+	script.Parent.MouseButton1Click:Connect(function()
+		if not open then
+			script.Parent.Menu.Visible = true
+			openTween:Play()
 	
-end
-coroutine.wrap(DCKHSYB_fake_script)()
-local function QKYJ_fake_script() -- VisionsMods.LocalScript 
-	local script = Instance.new('LocalScript', VisionsMods)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(QKYJ_fake_script)()
-local function REFHO_fake_script() -- PlayerEffects.LocalScript 
-	local script = Instance.new('LocalScript', PlayerEffects)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
+			local openTweens = createTransparencyTweens(script.Parent.Menu, 0)
+			for _, tween in ipairs(openTweens) do
+				tween:Play()
+			end
 		else
-			print("Feature off") 
+			local closeTweens = createTransparencyTweens(script.Parent.Menu, 1)
+			for _, tween in ipairs(closeTweens) do
+				tween:Play()
+			end
+	
+			closeTween:Play()
+			closeTween.Completed:Wait()
+			script.Parent.Menu.Visible = false
 		end
+		open = not open
+	end)
+end
+coroutine.wrap(JOKQL_fake_script)()
+local function WPQPBUW_fake_script() -- WeaponMods.LocalScript 
+	local script = Instance.new('LocalScript', WeaponMods)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local tweenInfo = TweenInfo.new(
+		0.1,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.Out,
+		0,
+		false,
+		0
+	)
+	
+	local openTween = TweenService:Create(script.Parent.Menu, tweenInfo, {Size = UDim2.new(1, 0,16.909, 0)})
+	local closeTween = TweenService:Create(script.Parent.Menu, tweenInfo, {Size = UDim2.new(1, 0,0, 0)})
+	
+	local open = false
+	
+	local function createTransparencyTweens(menu, targetTransparency)
+		local tweens = {}
+		for _, descendant in ipairs(menu:GetDescendants()) do
+			if descendant:IsA("Frame") or descendant:IsA("TextLabel") or descendant:IsA("ImageLabel") then
+				local tween = TweenService:Create(descendant, tweenInfo, {BackgroundTransparency = targetTransparency})
+				table.insert(tweens, tween)
+			elseif descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+				local tween = TweenService:Create(descendant, tweenInfo, {
+					BackgroundTransparency = targetTransparency,
+					TextTransparency = targetTransparency
+				})
+				table.insert(tweens, tween)
+			elseif descendant:IsA("ImageButton") then
+				local tween = TweenService:Create(descendant, tweenInfo, {
+					BackgroundTransparency = targetTransparency,
+					ImageTransparency = targetTransparency
+				})
+				table.insert(tweens, tween)
+			end
+		end
+		return tweens
 	end
 	
-	button.MouseButton1Click:Connect(toggleFeature)
+	script.Parent.MouseButton1Click:Connect(function()
+		if not open then
+			script.Parent.Menu.Visible = true
+			openTween:Play()
 	
-end
-coroutine.wrap(REFHO_fake_script)()
-local function QPLLX_fake_script() -- PlayerEffects.LocalScript 
-	local script = Instance.new('LocalScript', PlayerEffects)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(QPLLX_fake_script)()
-local function ZGNXY_fake_script() -- GameSettings.LocalScript 
-	local script = Instance.new('LocalScript', GameSettings)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
+			local openTweens = createTransparencyTweens(script.Parent.Menu, 0)
+			for _, tween in ipairs(openTweens) do
+				tween:Play()
+			end
 		else
-			print("Feature off") 
+			local closeTweens = createTransparencyTweens(script.Parent.Menu, 1)
+			for _, tween in ipairs(closeTweens) do
+				tween:Play()
+			end
+	
+			closeTween:Play()
+			closeTween.Completed:Wait()
+			script.Parent.Menu.Visible = false
 		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(ZGNXY_fake_script)()
-local function KLWM_fake_script() -- GameSettings.LocalScript 
-	local script = Instance.new('LocalScript', GameSettings)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
+		open = not open
 	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
 end
-coroutine.wrap(KLWM_fake_script)()
-local function IBMDOLC_fake_script() -- Aimbots.LocalScript 
-	local script = Instance.new('LocalScript', Aimbots)
-
-	local button = script.Parent
-	local featureEnabled = false
-	
-	local function toggleFeature()
-		featureEnabled = not featureEnabled
-		if featureEnabled then
-			print("Feature on")  
-		else
-			print("Feature off") 
-		end
-	end
-	
-	button.MouseButton1Click:Connect(toggleFeature)
-	
-end
-coroutine.wrap(IBMDOLC_fake_script)()
-local function ZAVMI_fake_script() -- Aimbots.LocalScript 
-	local script = Instance.new('LocalScript', Aimbots)
-
-	local button = script.Parent
-	
-	local defaultTransparency = 1 
-	local hoverTransparency = 0.5
-	
-	button.MouseEnter:Connect(function()
-		button.BackgroundTransparency = hoverTransparency
-	end)
-	
-	button.MouseLeave:Connect(function()
-		button.BackgroundTransparency = defaultTransparency
-	end)
-	
-end
-coroutine.wrap(ZAVMI_fake_script)()
+coroutine.wrap(WPQPBUW_fake_script)()
