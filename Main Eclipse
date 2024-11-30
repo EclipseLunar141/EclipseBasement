@@ -82,7 +82,7 @@ Frame.BackgroundTransparency = 0.500
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.687811971, 0, -0.190273568, 0)
-Frame.Size = UDim2.new(0, 305, 0, 1321)
+Frame.Size = UDim2.new(0, 315, 0, 1321)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 1, 242)
@@ -738,7 +738,7 @@ TextButton_38.TextSize = 24.000
 
 -- Scripts:
 
-local function ELSZREQ_fake_script() -- Frame.LocalScript 
+local function DPUNY_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game :GetService("UserInputService")
@@ -757,8 +757,8 @@ local function ELSZREQ_fake_script() -- Frame.LocalScript
 	
 	UserInputService.InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(ELSZREQ_fake_script)()
-local function NMEWO_fake_script() -- Noclip.LocalScript 
+coroutine.wrap(DPUNY_fake_script)()
+local function FERVABO_fake_script() -- Noclip.LocalScript 
 	local script = Instance.new('LocalScript', Noclip)
 
 	local button = script.Parent
@@ -815,8 +815,8 @@ local function NMEWO_fake_script() -- Noclip.LocalScript
 	
 	button.MouseButton1Click:Connect(toggleFeature)
 end
-coroutine.wrap(NMEWO_fake_script)()
-local function LUBLZX_fake_script() -- Infinitejump.LocalScript 
+coroutine.wrap(FERVABO_fake_script)()
+local function WQJC_fake_script() -- Infinitejump.LocalScript 
 	local script = Instance.new('LocalScript', Infinitejump)
 
 	local button = script.Parent
@@ -847,8 +847,8 @@ local function LUBLZX_fake_script() -- Infinitejump.LocalScript
 	
 	button.MouseButton1Click:Connect(toggleFeature)
 end
-coroutine.wrap(LUBLZX_fake_script)()
-local function AVYQ_fake_script() -- MainMods.LocalScript 
+coroutine.wrap(WQJC_fake_script)()
+local function NBLTBPN_fake_script() -- MainMods.LocalScript 
 	local script = Instance.new('LocalScript', MainMods)
 
 	local TweenService = game:GetService("TweenService")
@@ -912,8 +912,8 @@ local function AVYQ_fake_script() -- MainMods.LocalScript
 		open = not open
 	end)
 end
-coroutine.wrap(AVYQ_fake_script)()
-local function NSMLHYL_fake_script() -- GangstaMods.LocalScript 
+coroutine.wrap(NBLTBPN_fake_script)()
+local function UYLBU_fake_script() -- GangstaMods.LocalScript 
 	local script = Instance.new('LocalScript', GangstaMods)
 
 	local TweenService = game:GetService("TweenService")
@@ -977,8 +977,8 @@ local function NSMLHYL_fake_script() -- GangstaMods.LocalScript
 		open = not open
 	end)
 end
-coroutine.wrap(NSMLHYL_fake_script)()
-local function PNTYG_fake_script() -- VisionsMods.LocalScript 
+coroutine.wrap(UYLBU_fake_script)()
+local function GJXCNW_fake_script() -- VisionsMods.LocalScript 
 	local script = Instance.new('LocalScript', VisionsMods)
 
 	local TweenService = game:GetService("TweenService")
@@ -1042,8 +1042,8 @@ local function PNTYG_fake_script() -- VisionsMods.LocalScript
 		open = not open
 	end)
 end
-coroutine.wrap(PNTYG_fake_script)()
-local function OTPL_fake_script() -- WeaponMods.LocalScript 
+coroutine.wrap(GJXCNW_fake_script)()
+local function VSUK_fake_script() -- WeaponMods.LocalScript 
 	local script = Instance.new('LocalScript', WeaponMods)
 
 	local TweenService = game:GetService("TweenService")
@@ -1107,4 +1107,4 @@ local function OTPL_fake_script() -- WeaponMods.LocalScript
 		open = not open
 	end)
 end
-coroutine.wrap(OTPL_fake_script)()
+coroutine.wrap(VSUK_fake_script)()
