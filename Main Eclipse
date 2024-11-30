@@ -82,7 +82,7 @@ Frame.BackgroundTransparency = 0.500
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.687811971, 0, -0.190273568, 0)
-Frame.Size = UDim2.new(0, 307, 0, 1321)
+Frame.Size = UDim2.new(0, 275, 0, 1321)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 1, 242)
@@ -738,7 +738,7 @@ TextButton_38.TextSize = 24.000
 
 -- Scripts:
 
-local function HRSOY_fake_script() -- Frame.LocalScript 
+local function UYWVVEV_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game :GetService("UserInputService")
@@ -757,8 +757,8 @@ local function HRSOY_fake_script() -- Frame.LocalScript
 	
 	UserInputService.InputBegan:Connect(onKeyPress)
 end
-coroutine.wrap(HRSOY_fake_script)()
-local function MNIYVD_fake_script() -- Noclip.LocalScript 
+coroutine.wrap(UYWVVEV_fake_script)()
+local function LBCCY_fake_script() -- Noclip.LocalScript 
 	local script = Instance.new('LocalScript', Noclip)
 
 	local button = script.Parent
@@ -815,8 +815,8 @@ local function MNIYVD_fake_script() -- Noclip.LocalScript
 	
 	button.MouseButton1Click:Connect(toggleFeature)
 end
-coroutine.wrap(MNIYVD_fake_script)()
-local function QHXLXMN_fake_script() -- Infinitejump.LocalScript 
+coroutine.wrap(LBCCY_fake_script)()
+local function EIZHBX_fake_script() -- Infinitejump.LocalScript 
 	local script = Instance.new('LocalScript', Infinitejump)
 
 	local button = script.Parent
@@ -847,8 +847,8 @@ local function QHXLXMN_fake_script() -- Infinitejump.LocalScript
 	
 	button.MouseButton1Click:Connect(toggleFeature)
 end
-coroutine.wrap(QHXLXMN_fake_script)()
-local function URXV_fake_script() -- MainMods.LocalScript 
+coroutine.wrap(EIZHBX_fake_script)()
+local function SGPNPTY_fake_script() -- MainMods.LocalScript 
 	local script = Instance.new('LocalScript', MainMods)
 
 	local TweenService = game:GetService("TweenService")
@@ -912,8 +912,8 @@ local function URXV_fake_script() -- MainMods.LocalScript
 		open = not open
 	end)
 end
-coroutine.wrap(URXV_fake_script)()
-local function EZDXPP_fake_script() -- GangstaMods.LocalScript 
+coroutine.wrap(SGPNPTY_fake_script)()
+local function WBLXO_fake_script() -- GangstaMods.LocalScript 
 	local script = Instance.new('LocalScript', GangstaMods)
 
 	local TweenService = game:GetService("TweenService")
@@ -977,8 +977,8 @@ local function EZDXPP_fake_script() -- GangstaMods.LocalScript
 		open = not open
 	end)
 end
-coroutine.wrap(EZDXPP_fake_script)()
-local function MYYDHOF_fake_script() -- VisionsMods.LocalScript 
+coroutine.wrap(WBLXO_fake_script)()
+local function CLSOZIO_fake_script() -- VisionsMods.LocalScript 
 	local script = Instance.new('LocalScript', VisionsMods)
 
 	local TweenService = game:GetService("TweenService")
@@ -1042,8 +1042,8 @@ local function MYYDHOF_fake_script() -- VisionsMods.LocalScript
 		open = not open
 	end)
 end
-coroutine.wrap(MYYDHOF_fake_script)()
-local function GXXOF_fake_script() -- WeaponMods.LocalScript 
+coroutine.wrap(CLSOZIO_fake_script)()
+local function MNWCQ_fake_script() -- WeaponMods.LocalScript 
 	local script = Instance.new('LocalScript', WeaponMods)
 
 	local TweenService = game:GetService("TweenService")
@@ -1107,4 +1107,4 @@ local function GXXOF_fake_script() -- WeaponMods.LocalScript
 		open = not open
 	end)
 end
-coroutine.wrap(GXXOF_fake_script)()
+coroutine.wrap(MNWCQ_fake_script)()
